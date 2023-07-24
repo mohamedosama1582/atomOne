@@ -137,12 +137,13 @@ nav {
 	margin-left:1rem;
 }
 .slogan_about{
+	text-transform: capitalize;
 	text-align: justify;
 	margin:0px;	
 	max-width:80%;
     margin-top:2rem;
 	margin-left:3rem;
-	color:rgb(230, 196, 4);
+	color:rgb(206, 213, 11);
 	font-size: 1.75rem;
 	padding-bottom: 10px;
 }
@@ -153,7 +154,6 @@ nav {
 	font-size: 2rem;
 	font-weight: 700;
 	color:rgb(11, 11, 12);
-	border:3px solid rgb(223, 216, 216);
 	background: #f0b206;
 	width:20rem;
 	height:5rem;
@@ -164,10 +164,11 @@ nav {
 }
 
  .analytics_btn:hover {
+	border:3px solid rgb(223, 216, 216);
 	background: transparent;
 	color: white;
 	cursor: pointer;
-	border-bottom: 1px solid #00FFCA;
+	/* border-bottom: 1px solid #00FFCA; */
 	transition: 0.3s;
 }
 
