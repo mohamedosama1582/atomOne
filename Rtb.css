@@ -8,7 +8,7 @@
 
 /*%%%%%%%%%%%%%%%%%%%%%%%  NAVIGATION BAR %%%%%%%%%%%%%%%%%%%%%%%*/
 nav {
-	background-color: #001C30;
+	background-color: #2D4356;
 	width: 100%;
 	height: 4rem;
 	padding: 5px;
@@ -24,13 +24,13 @@ nav {
 	width: 40%;
 }
 .logo{
-	font-family: 'Cabin', sans-serif;
+	font-family: 'jost', sans-serif;
 	font-weight: 700;
 	color: white;
 	padding-left: 2rem;
 }
 .nav-logo-letter{
-	font-family: 'Cabin', sans-serif;
+	font-family: 'jost', sans-serif;
 	font-weight: 700;
 	background:hsl(185, 87%, 51%);
 	-webkit-background-clip:text;
@@ -40,7 +40,7 @@ nav {
 /* ===== navigation link ===== */
 
 .nav-link-bar{
-	font-family: 'Rubik', sans-serif;
+	font-family: 'inter', sans-serif;
 	width: 60%;
 	margin-top: 10px;
 }
@@ -52,9 +52,9 @@ nav {
 }
 .nav-link a {
 	text-decoration: none;
-	font-size: 1.5rem;
+	font-size: 1.6rem;
 	color: #45CFDD;
-	font-weight: bold;
+	font-weight: 450;
 }
 .nav-link a:hover {
 	color: white;
@@ -107,118 +107,231 @@ nav {
 
 .frontpage {
 	font-family: 'Rubik', sans-serif;
-	background-color: #001C30;
+	background: linear-gradient(130deg, rgba(79,226,164,1) 0%, rgba(37,219,149,1) 43%, rgba(8,196,227,1) 100%);
+	/* background: #435B66; */
 	width:100%;
-	height:50rem;
+	height:fit-content;
 	position: relative;
+	overflow: hidden;
 	/* position:relative; */
 	
 }
    
 .slogan{
-	background: linear-gradient(45deg,#00FFCA,#00FFCA,#009EFF,#00FFCA);
-	-webkit-background-clip:text;
-	-webkit-text-fill-color:transparent;
+	
+	color: #0875c8;
 	text-transform: capitalize;
 	font-weight: 700;
-	font-size: 6rem;
-	letter-spacing: 5px;
-	max-width:60%;
-	top:5rem;
+	font-size: 5.2rem;
+	letter-spacing:5px;
+	max-width:55%;
+	top:8rem;
 	left: 3rem;
 	position: relative;
 }
 
 .slogan .newway{
-	/* background: rgb(11, 190, 222); */
+	background: linear-gradient(130deg, rgba(24,136,244,1) 0%, rgba(38,219,240,1) 55%, rgba(8,168,227,1) 100%);
+	border-radius: 5px;
+	border:1px white solid;
+	font-size: 4.5rem;
+	/* max-width:3rem; */
 	/* -webkit-background-clip:text; */
-	-webkit-text-fill-color:rgb(249, 155, 14);
-	padding:3px;
+	-webkit-text-fill-color:rgb(234, 227, 220);
+	padding-left:10px;
+	padding-right:3rem;
 	margin-left:1rem;
+}
+.dot{
+	background: #f5f5f4;
+	width:.6rem;
+	height:.6rem;
+	border-radius: 20%;
+}
+.dot1{
+	margin-top:2.7rem;
+	margin-left:29.5rem;
+}
+.dot2{
+	margin-top:2.5rem;
+	margin-left:29.5rem;
+}
+.logo_art{
+	margin:0px;
+	border:3px solid white;
+	border-radius: 10%;
+	width:9rem;
+	height:9rem;
+	margin-left:56rem;
+	margin-top:-50rem;
+}
+.logo_art1{
+	display:none;
 }
 .slogan_about{
 	text-transform: capitalize;
-	text-align: justify;
+	text-align:justify;
+	font-weight: 800;
 	margin:0px;	
-	max-width:80%;
-    margin-top:2rem;
+	max-width:49%;
+    margin-top:1.6rem;
 	margin-left:3rem;
-	color:rgb(206, 213, 11);
-	font-size: 1.75rem;
+	color:#4b4a4a;
+	font-size: 2rem;
 	padding-bottom: 10px;
+	letter-spacing: 1px;
 }
 
 .analytics_btn{
 	/* margin-bottom: 0rem; */
 	/* text-transform: capitalize; */
 	font-size: 2rem;
-	font-weight: 700;
-	color:rgb(11, 11, 12);
-	background: #f0b206;
+	font-weight: 600;
+	color:rgb(238, 238, 241);
+	background: #0875c8;
 	width:20rem;
 	height:5rem;
 	margin-left:3rem;
-	margin-top: 7rem;
+	margin-top:3rem;
+	border:1px solid #0875c8;
 	border-radius: 40px;
 	padding:10px;
 }
 
  .analytics_btn:hover {
-	border:3px solid rgb(223, 216, 216);
+	border:3px solid rgb(14, 13, 13);
 	background: transparent;
-	color: white;
+	color: rgb(9, 9, 9);
 	cursor: pointer;
 	/* border-bottom: 1px solid #00FFCA; */
 	transition: 0.3s;
 }
 
-.title{
-	display: none;
-	font-family: 'Readex Pro', sans-serif;
-	color:#111110;
-	background-color: rgb(216, 212, 207);
-	width:fit-content;
-	font-weight: 800;
-	font-size: 6.5rem;
-	position: relative;
-	left: 22.33rem;
-	top:30rem;
-	padding-left: 25px;
-	padding-bottom:10px ;
-	padding-right: 80px;
+.img{
+	margin-left:51rem;
+	margin-top:-42rem;
 }
-
 .img1{
 	position:relative;
-	width:35rem;
-	height:35rem;
-	left:65rem;
-	bottom:43rem;
-	border-radius: 10%;
- }
+	width:55rem;
+	height:55rem;
 
-@media(max-width:1620px){
-	.title{
-		display: none;
+}
+
+@media(max-width:1320px){
+	/* .frontpage{
+		height:auto;
+	} */
+	.slogan,.slogan_about,.analytics_btn{
+		max-width:85%;
+		margin-top:5rem;
 	}
-
-	.frontpage{
-		height:fit-content;
+	.logo_art{
+		display:none;
 	}
-
+	.img{
+		display:flex;
+		margin-left:0rem;
+		margin-top:5rem;
+		/* margin-bottom:0rem; */
+		/* align-items: center;
+		justify-content: center; */
+	}
 	.img1{
-		width:360px;
-	    height:auto;
-		left:0rem;
-		top:0rem;
-		padding:2rem;
+		justify-self: center;
+		align-self: center;
+		position:relative;
+		width:50rem;
+		height:50rem;
+		margin-left:3rem;
 	
 	}
-@media(max-width:780px){
-	.slogan{
-		max-width:80%;
-		font-size: 3rem;
+	.logo_art1{
+		display:block;
+		margin:0px;
+		border:3px solid white;
+		border-radius: 10%;
+		width:11rem;
+		height:11rem;
+		margin-left:-49rem;
+		margin-top:-25rem;
+		}
+	
+@media(max-width:430px){
+	.frontpage{
+		margin-top:-8rem;
+		height:fit-content;
 	}
+	.slogan{
+		font-size: 2.2rem;
+		letter-spacing:1px;
+		max-width:90%;
+		left:1rem;
+		line-height: 4rem;
+	}
+
+	.slogan .newway{
+		/* display:none; */
+		border:none;
+		font-size: 2.2rem;
+		padding-left:.8rem;
+	    padding-right:1rem;
+
+	}
+	.slogan_about{
+		font-weight: 800;
+		max-width:85%;
+		margin-top:10rem;
+		margin-left:1rem;
+		font-size: 1rem;
+	}
+	.analytics_btn{
+		font-size: 1.3rem;
+		width:80%;
+		height:fit-content;
+		margin-left:10%;
+		margin-top:3rem;
+		padding:18px;
+	}
+	.dot{
+		display:none;
+	}
+	
+	.logo_art{
+		width:0px;
+		height:0px;
+		/* display:none; */
+	}
+
+	
+	.img{
+		display:flex;
+		margin-left:0rem;
+		margin-top:28rem;
+		margin-bottom:-25rem;
+		/* align-items: center;
+		justify-content: center; */
+	}
+	.img1{
+		justify-self: center;
+		align-self: center;
+		position:relative;
+		width:20rem;
+		height:20rem;
+	
+	}
+	.logo_art1{
+		display:block;
+		margin:0px;
+		border:2px solid white;
+		border-radius: 10%;
+		width:5rem;
+		height:5rem;
+		margin-left:-19rem;
+		margin-top:-61rem;
+		}
+	
+
 }
 }
 /*%%%%%%%%%%%%%%%%%%%%%%% ABOUT US %%%%%%%%%%%%%%%%%%%%%%%*/
